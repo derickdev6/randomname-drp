@@ -1,7 +1,7 @@
 {
   "name": "randomname-drp",
   "version": "1.0.0",
-  "description": "nam random response",
+  "description": "name random response",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,15 @@
   "author": "Derick Robinson <derickdev6@gmail.com>",
   "license": "ISC",
   "bin": {
-    "randomname": "./bin/global.js"
+    "randomname": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derickdev6/randomname-drp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/derickdev6/randomname-drp/issues"
+  },
+  "homepage": "https://github.com/derickdev6/randomname-drp#readme"
 }
